@@ -1,0 +1,112 @@
+* {
+  font-family: 'Andale Mono', monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+ nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(4, 66, 9);
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.footer {
+  font-size: smaller;
+  color:rgb(54, 54, 54);
+}
+
+
+
+
+.header--pic {
+  color: #741616;
+    background-position: center;
+  background-repeat: no-repeat;
+      position: relative;
+      background-size: cover;
+      padding: 14px 16px;
+}
+
+.about--header {
+    text-align: center;
+}
+
+.author--header {
+    text-align: center;
+}
+
+.clothes--list {
+    list-style: none;
+}
+
+li {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.big--img {
+  width:375px;
+
+}
+
+
+.course--info--paragraph {
+font-size: 25px;
+}
+
+.course--li {
+  list-style: none;
+  font-weight: normal;
+}
+
+
+
+
+
+footer {
+height:24px; 
+width: 100%; 
+background-image: none;
+background-repeat: repeat;
+background-attachment: scroll;
+background-position: 0% 0%;
+position: fixed;
+bottom: 0pt;
+left: 0pt;
+background-color: gray;
+color: white;
+margin-top: auto;
+}
+
+
+
+@media(min-width: 768px) {
+.big--img {
+  width: 700px;
+}
+}
+
+@media(min-width: 992px) {
+.big--img {
+  width: 900px;
+}
+}
